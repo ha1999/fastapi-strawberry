@@ -11,7 +11,7 @@ python = "^3.9"
 httpx = "^0.24.1"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
 fastapi = "^0.101.0"
-strawberry-graphql = {extras = ["fastapi"], version = "^0.209.2"}
+strawberry-graphql = {extras = ["debug-server"], version = "^0.209.2"}
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.3.3"
